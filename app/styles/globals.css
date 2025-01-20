@@ -78,9 +78,7 @@ body {
   }
   body {
     @apply bg-background text-foreground;
-
     display: flex;
-    align-items: center;
     justify-content: center;
 
     width: 100%;
