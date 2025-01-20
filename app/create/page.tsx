@@ -3,6 +3,7 @@ import styles from "./page.module.scss";
 import { Button } from "@/components/ui/button";
 import LabelCalendar from "@/components/common/calendar/LabelCalendar";
 import Image from "next/image";
+import BasicBoard from "@/components/board/BasicBoard";
 
 const CreatePage = () => {
   return (
@@ -53,6 +54,7 @@ const CreatePage = () => {
             />
           </button>
         </div>
+        <BasicBoard />
       </main>
     </div>
   );
