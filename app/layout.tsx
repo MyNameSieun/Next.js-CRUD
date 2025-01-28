@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+
+// 전역 CSS
 import "./styles/globals.css";
+
+// Components
 import SideNavigation from "@/components/common/navigation/SideNavigation";
+
+// Shadcn UI
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,6 +24,7 @@ export default function RootLayout({
       <body>
         <SideNavigation />
         {children}
+        <Toaster />
       </body>
     </html>
   );
